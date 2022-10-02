@@ -1,0 +1,10 @@
+u_speed = float(input("Enter your speed of the car (km/h):"))
+u_distance = float(input("Enter your destine distance (km):"))
+time = u_distance/u_speed
+print('Your traveling time is: ', end="")
+print(time, end="")
+print(' hours, which is ', end="")
+print(int(time), end="")
+print(' hours and ', end="")
+print(int(((time-int(time))*60)), end="")
+print('minutes')
