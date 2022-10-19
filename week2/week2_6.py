@@ -14,6 +14,6 @@ e = e - e_10*10
 e_5 = e // 5
 e = e - e_5*5
 
-print(f"You have 500e bill: {round(e_500)}, 200e bill: {round(e_200)}, 100e bill: {round(e_100)}, 50e bill: {round(e_50)}, 20e bill: {round(e_20)}, 10e bill: {round(e_10)}, 5e bill: {round(e_5)}.")
+print(f"You have:\n500e bill: {round(e_500)}\n200e bill: {round(e_200)}\n100e bill: {round(e_100)}\n50e bill: {round(e_50)}\n20e bill: {round(e_20)}\n10e bill: {round(e_10)}\n5e bill: {round(e_5)}\nand {round(e)} coins.")
 	
 
