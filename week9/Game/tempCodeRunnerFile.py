@@ -1,0 +1,1 @@
+Button(frameB,text = 'Easy!', width = 5,height = 1,background = 'pink', command = newGame()).grid(row = 1,column = 0,sticky="")
